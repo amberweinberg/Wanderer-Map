@@ -23,12 +23,13 @@ body {
 }
 
 a { 
-	text-decoration: none;
+    color: #71c8d4;
 	transition: all .5s ease;
 }
 
 a:hover {
-	
+	color: #388f9b;
+	text-decoration: none;
 }
 
 .container {

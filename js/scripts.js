@@ -368,16 +368,20 @@ function initMap() {
         ['<strong>Madison, NH</strong> (2016)', 43.8971038,-71.2169391, red],
         ['<strong>Cincinnati, OH</strong> (2015)', 39.1365225,-84.6804872, red],
         ['<strong>Atlanta, GA</strong> (2015)', 33.7679192,-84.5606904, red],
-        ['<strong>New York City, NY</strong> (2015)', 40.6976701,-74.2598716, red],
+        ['<strong>New York City, NY</strong> (2015,2017)', 40.6976701,-74.2598716, red],
         ['<strong>San Franciso, CA</strong> (2014)', 37.757815,-122.5076402, red],
-        ['<strong>Salem, MA</strong> (2014)', 42.5157007,-70.9172737, red],
+        ['<strong>Salem, MA</strong> (2014, 2016, 2018)', 42.5157007,-70.9172737, red],
         ['<strong>Washington, DC</strong> (2013)', 38.89378,-77.1546618, red],
         ['<strong>New Orleans, LA</strong> (2013)', 30.0332195,-90.0226503, red],
-        ['<strong>London, England</strong> (Second Home) (2012, 2013, 2015)', 51.5287718,-0.2416821, yellow],
+        ['<strong>London, England</strong> (Second Home) (2012, 2013, 2015, 2018)', 51.5287718,-0.2416821, yellow],
         ['<strong>Mammoth Cave, KY</strong>', 37.186176,-86.1087301, red],
         ['<strong>Gatlinburg, TN</strong>', 35.7273147,-83.533036, red],
         ['<strong>Myrtle Beach, SC</strong>', 33.1454389,-80.0957878, red],
-        ['<strong>Memphis, TN (2008)</strong>', 35.1294252,-90.250978, red],
+        ['<strong>Memphis, TN (2008,2017)</strong>', 35.1294252,-90.250978, red],
+        ['<strong>Denver, CO</strong> (2016, 2018)', 39.7644499,-104.9251507, red],
+        ['<strong>Detroit, MI</strong> (2017)', 41.9102415,12.395913, red],
+        ['<strong>Boston, MA</strong> (2018)', 42.3528165,-83.1692442, red],
+        ['<strong>Rome, Italy</strong> (2017)', 41.9102415,12.395913, red],
     ],nashville,'single');
     
     addMarker([
@@ -392,18 +396,19 @@ function initMap() {
     ],london,'single');
     
     addMarker([
-        ['<strong>Barcelona, Spain</strong> (2016)', 41.3948976,2.0787277, green],
-        ['<strong>Palma de Mallorca, Spain</strong> (2016)', 39.570064,2.6107149, green],
-        ['<strong>Marseille, France</strong> (2016)', 43.280555,5.2650544, green],
-        ['<strong>Pisa, Italy, Spain</strong> (2016)', 43.7068534,10.3253381, green],
-        ['<strong>Rome, Italy, Spain</strong> (2016)', 41.9102416,12.2558103, green],
-        ['<strong>Pompeii, Italy, Spain</strong> (2016)', 40.7466793,14.4586626, green],
+        ['<strong>Barcelona, Spain</strong> (2016)', 41.3948976,2.0787277, red],
+        ['<strong>Palma de Mallorca, Spain</strong> (2016)', 39.570064,2.6107149, red],
+        ['<strong>Marseille, France</strong> (2016)', 43.280555,5.2650544, red],
+        ['<strong>Pisa, Italy</strong> (2016)', 43.7068534,10.3253381, red],
+        ['<strong>Civitavecchia, Italy</strong> (2016)', 42.0888596,11.7656521, red],
+        ['<strong>Pompeii, Italy</strong> (2016)', 40.7466793,14.4586626, red],
     ],nashville, 'multi');
     
     addMarker([
         ['<strong>Edinburgh, Scotland</strong> (2015)', 55.9411418,-3.2754232, red],
         ['<strong>Glasgow, Scotland</strong> (2015)', 55.8555734,-4.3725413, red],
         ['<strong>Dublin, Ireland</strong> (2015)', 53.3244431,-6.3857872, red],
+        ['<strong>Durham, England</strong> (2015)', 54.7817994,-1.5872561, red],
         ['<strong>York, England</strong> (2015)', 53.9586419,-1.115611, red],
         ['<strong>London, England</strong> (Second Home) (2012, 2013, 2015)', 51.5287718,-0.2416821, yellow],
     ],nashville, 'multi');
@@ -418,5 +423,28 @@ function initMap() {
         ['<strong>Nassau, Bahamas</strong> (2011)', 25.0326645,-77.4763358, red],
         ['<strong>St. Thomas</strong> (2011)', 18.3430473,-65.0069724, red],
         ['<strong>St. Maarten</strong> (2011)', 18.0347444,-63.1031311, red],
+    ],nashville, 'multi');
+        
+    addMarker([
+	    ['<strong>Edinburgh, Scotland</strong> (2017)', 55.9411418,-3.275423, red],
+	    ['<strong>Stirling, Scotland</strong> (2017)', 56.118728,-3.9572079, red],
+        ['<strong>Inverness, Scotland</strong> (2017)', 57.4680375,-4.256877, red],
+        ['<strong>Isle of Skye, Scotland</strong> (2017)', 57.3630291,-6.4981954, red]
+    ],nashville, 'multi');
+    
+    addMarker([
+        ['<strong>Costa Maya, Mexico</strong> (2018)', 18.7332202,-87.6970724, red],
+        ['<strong>Havana, Cuba</strong> (2018)', 23.0508292,-82.4030415, red],
+    ],nashville, 'multi');
+    
+    addMarker([
+        ['<strong>Key West, Florida</strong> (2018)', 24.5646583,-81.7893828, green],
+        ['<strong>Cozumel, Mexico</strong> (2018)', 20.4322304,-86.9442929, green],
+    ],nashville, 'multi');
+    
+    addMarker([
+        ['<strong>Juneau, Alaska</strong> (2019)', 58.3845202,-134.7581444, green],
+        ['<strong>Skagway, Alaska</strong> (2019)', 59.5701727,-135.6380691, green],
+        ['<strong>Victoria, British Columbia</strong> (2019)', 48.4262626,-123.376732, green],
     ],nashville, 'multi');
 }
